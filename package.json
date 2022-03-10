@@ -1,5 +1,5 @@
 {
-  "name": "P7-BOT",
+  "name": "Bosskiller",
   "version": "2.2",
   "description": "Inteligência artificial feita por Gusta4321 e P7!",
   "main": "index.js",
@@ -14,15 +14,15 @@
   "keywords": [
     "k"
   ],
-  "author": "P7",
+  "author": "bosskiller",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kaykep7/botp7.git"
+    "url": "git+https://github.com/Bosskiller665/bosskillerbot.git"
   },
   "bugs": {
-    "url": "https://github.com/Kaykep7/botp7/issues"
+    "url": "https://github.com/Bosskiller665/bosskillerbot/issues"
   },
-  "homepage": "https://github.com/Kaykep7/botp7/readme",
+  "homepage": "https://github.com/Bosskiller665/bosskillerbot/readme",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
