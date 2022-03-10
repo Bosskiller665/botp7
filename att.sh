@@ -19,7 +19,7 @@ mkdir bosskillerback
 
 sleep 1
 echo "${GRE} Copiando Arquivos..."
-cd botp7
+cd bosskillerbot
 cp -fR ./logos ../bosskillerback
 cp -fR ./dono ../bosskillerback
 cp -fR ./datab ../bosskillerback
