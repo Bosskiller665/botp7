@@ -7,51 +7,51 @@ echo "${GRE} Iniciando Backup."
 sleep 1
 echo "${GRE} Criando Pasta de Backup.."
 cd ../
-FILES=p7back
+FILES=bosskillerback
 if [ -d "$FILES" ]; then
     echo "${GREEN} $FILES Existe Apagando e Criando..."
-        cd ./ && rm -rf p7back
+        cd ./ && rm -rf bosskillerback
       sleep 2
     else 
     echo "${GRE} $FILES Não Existe Criando Prosseguindo..."
 fi
-mkdir p7back
+mkdir bosskillerback
 
 sleep 1
 echo "${GRE} Copiando Arquivos..."
 cd botp7
-cp -fR ./logos ../p7back
-cp -fR ./dono ../p7back
-cp -fR ./datab ../p7back
-cp -fR ./audios ../p7back
+cp -fR ./logos ../bosskillerback
+cp -fR ./dono ../bosskillerback
+cp -fR ./datab ../bosskillerback
+cp -fR ./audios ../bosskillerback
 FILE=BarBar.json
 if [ -f "$FILE" ]; then
-    cp -f BarBar.json ../p7back
+    cp -f BarBar.json ../bosskillerback
     else 
     echo "${GREEN} $FILE Não Existe Prosseguindo..."
 fi
 cd ../
 echo "${GRE} Arquivos Copiados Prosseguindo...."
 sleep 2
-rm -rf botp7 && git clone https://github.com/Kaykep7/botp7.git
+rm -rf bosskillerbot && https://github.com/Bosskiller665/bosskillerbot.git
 sleep 2
 echo "${GRE} Pasta do Bot Atualizada Prosseguindo..."
 sleep 2
-rm -rf botp7/logos/
-rm -rf botp7/dono/
-rm -rf botp7/datab/
-rm -rf botp7/audios/
-cd p7back
-cp -fR ./logos ../botp7
-cp -fR ./dono ../botp7
-cp -fR ./datab ../botp7
-cp -fR ./audios ../botp7
+rm -rf bosskillerbot/logos/
+rm -rf bosskillerbot/dono/
+rm -rf bosskillerbot/datab/
+rm -rf bosskillerbot/audios/
+cd bosskillerback
+cp -fR ./logos ../bosskillerbot
+cp -fR ./dono ../bosskillerbot
+cp -fR ./datab ../bosskillerbot
+cp -fR ./audios ../bosskillerbot
 
 if [ -f "$FILE" ]; then
-    cp -f ./BarBar.json ../botp7
+    cp -f ./BarBar.json ../bosskillerbot
 fi
 sleep 2
-echo "${GRE} O Backup Ficara salvo na pasta p7back Prosseguindo..."
+echo "${GRE} O Backup Ficara salvo na pasta bosskiller back Prosseguindo..."
 sleep 1
 echo "${GRE} Bot Atualizado com Sucesso."
 exit
